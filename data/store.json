@@ -1,0 +1,81 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Ноутбук Lenovo IdeaPad",
+            "category": "Электроника",
+            "price": 58990.0,
+            "quantity": 0,
+            "description": "Ноутбук для учебы и работы"
+        },
+        {
+            "id": 2,
+            "name": "Смартфон Samsung Galaxy",
+            "category": "Электроника",
+            "price": 34990.0,
+            "quantity": 12,
+            "description": "Смартфон среднего класса"
+        },
+        {
+            "id": 3,
+            "name": "Клавиатура Logitech",
+            "category": "Периферия",
+            "price": 2490.0,
+            "quantity": 12,
+            "description": "Проводная клавиатура"
+        },
+        {
+            "id": 4,
+            "name": "Мышь Xiaomi",
+            "category": "Периферия",
+            "price": 1290.0,
+            "quantity": 25,
+            "description": "Беспроводная мышь"
+        },
+        {
+            "id": 5,
+            "name": "Наушники JBL",
+            "category": "Аудио",
+            "price": 4990.0,
+            "quantity": 15,
+            "description": "Беспроводные наушники"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "username": "customer",
+            "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "customer"
+        },
+        {
+            "id": 3,
+            "username": "login",
+            "password": "46372e8648989e4c62b21193f6ce9bc0e0a10e51da07d6e43c3b2de46c44c0d3",
+            "role": "customer"
+        }
+    ],
+    "orders": [
+        {
+            "id": 1,
+            "user_id": 2,
+            "items": [
+                {
+                    "product_id": 1,
+                    "name": "Ноутбук Lenovo IdeaPad",
+                    "price": 58990.0,
+                    "quantity": 1
+                }
+            ],
+            "total": 58990.0,
+            "status": "completed",
+            "created_at": "2026-05-16 17:05:53"
+        }
+    ]
+}
